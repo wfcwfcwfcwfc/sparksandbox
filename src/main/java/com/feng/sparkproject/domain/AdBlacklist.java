@@ -2,18 +2,19 @@ package com.feng.sparkproject.domain;
 
 /**
  * 广告黑名单
- * @author Administrator
  *
+ * @author Administrator
  */
 public class AdBlacklist {
 
-	private long userid;
+  private long userid;
 
-	public long getUserid() {
-		return userid;
-	}
-	public void setUserid(long userid) {
-		this.userid = userid;
-	}
-	
+  public long getUserid() {
+    return userid;
+  }
+
+  public void setUserid(long userid) {
+    this.userid = userid;
+  }
+
 }
